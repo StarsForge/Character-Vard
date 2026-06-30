@@ -1,29 +1,33 @@
 # Unreal Engine
-
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
-
-# IDE
+Build/
 .vs/
 .idea/
 
-# Visual Studio
+# Visual Studio / IDE
+*.sln
+*.suo
+*.user
+*.userosscache
 *.VC.db
 *.VC.opendb
-*.sln
+*.opensdf
+*.sdf
 
-# Logs
+# Logs & Crashes
 *.log
-
-# Crash reports
 Crashes/
 
 # OS files
 .DS_Store
 Thumbs.db
+desktop.ini
 
 # Temporary files
 *.tmp
 *.temp
+*.bak
+*.old
